@@ -4,7 +4,7 @@
 
 .btn-default{
   border-radius: 15px 50px;
-  background: rgba(68, 68, 68, 0.5);
+  background: rgba(#000000, 0.54);
   padding: 20px;
   height: 60px;
   font-family: fantasy;
@@ -13,22 +13,22 @@
   color: #fff;
 }
 .name-bar-bg{
-  background-color: rgba(#ffffff, 0.31);
+  background-color: rgba(#000000, 0.54);
+  background-repeat: no-repeat;
+  background-size: 100%;
   width: 100%;
-  height: 75px;
-  margin-top: 75px;
+  height: 100px;
   text-align: center;
   line-height: 85px;
   font-size: 65px;
   font-family: fantasy;
   border-top: thick double #fff;
   border-bottom: thick double #fff;
-  color: rgba(0, 0, 0, 0.83);
+  color: rgb(255, 255, 255);
+  align-content: center;
   position: relative;
 }
-.name-bar-image{
-  display: inline-block;
-}
+
 body {
   background-image: url("http://www.ldshistorysites.com/wp-content/uploads/2012/02/Sacred-Grove-15-890x1369.jpg");
   background-position: center;
@@ -36,13 +36,17 @@ body {
 .round-pic{
   height: 200px;
   width: 200px;
-  position: absolute;
-  top: -60px;
-  left: 150px;
-  vertical-align: middle;
   border-radius: 100%;
   border: thick double #fff;
 }
-.huge{
-  height: 1000px;
+.relative{
+  position: static;
+  vertical-align: middle;
+}
+.col-md-12{
+  padding: 0;
+
+}
+.medium-box{
+  height: 150px;
 }
